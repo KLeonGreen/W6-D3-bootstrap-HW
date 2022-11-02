@@ -44,7 +44,8 @@ a {
   padding: 0.5em;
   width: 10em;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.6s;
+  border: solid 1px rgb(105, 105, 105);
 }
 .card-body {
   padding: 0;

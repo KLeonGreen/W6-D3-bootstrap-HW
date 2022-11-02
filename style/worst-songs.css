@@ -45,9 +45,13 @@ a {
   width: 10em;
   cursor: pointer;
   transition: 1s;
+  z-index: 5;
 }
 .card-body {
   padding: 0;
+}
+.card-text {
+  color: rgb(186, 186, 186);
 }
 
 .card-img-top {
