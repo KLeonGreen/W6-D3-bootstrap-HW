@@ -41,13 +41,16 @@ a {
 .card:hover {
   background-color: #4a5158;
   color: white;
-  padding: 0.7em;
+  padding: 0.5em;
   width: 10em;
   cursor: pointer;
   transition: 1s;
 }
 .card-body {
   padding: 0;
+}
+.card-text {
+  color: rgb(186, 186, 186);
 }
 
 .card-img-top {

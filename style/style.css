@@ -94,6 +94,7 @@ body {
   text-decoration: none;
   color: #131212;
   font-family: "Zen Antique", serif;
+  transition: 1s;
 }
 .titles h4 {
   text-decoration: none;
