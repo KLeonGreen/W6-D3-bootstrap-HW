@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Zen+Antique&display=swap");
+
+body {
+  background-color: #131212;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container-fluid {
+}
+.page-card {
+  height: 30vh;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  transform: translateY(30%);
+}
+
+.card-1,
+.card-2 {
+  margin-block-end: 1.5em;
+}
+
+.card-1 {
+  background-image: linear-gradient(45deg, #cdf9e8, #d0ffed);
+  transition: 4s;
+}
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover {
+  background-image: linear-gradient(45deg, #cdf9e8, #ffd0d3);
+  transition: 4s;
+}
+
+.card-1:hover h2 {
+  font-size: 2.4em;
+  transition: 1s;
+}
+.card-2:hover h2 {
+  font-size: 2.4em;
+  transition: 1s;
+}
+.card-3:hover h2 {
+  font-size: 2.4em;
+  transition: 1s;
+}
+.card-4:hover h2 {
+  font-size: 2.4em;
+  transition: 1s;
+}
+.card-1:hover .image-1 {
+  transform: translateX(-10%);
+  transition: 1s;
+}
+.card-2:hover .image-1 {
+  transform: translateX(-10%);
+  transition: 1s;
+}
+.card-3:hover .image-1 {
+  transform: translateX(-10%);
+  transition: 1s;
+}
+.card-4:hover .image-1 {
+  transform: translateX(-10%);
+  transition: 1s;
+}
+
+.card-2 {
+  background-image: linear-gradient(45deg, #fff0b0, #ffe162);
+}
+.card-3 {
+  background-image: linear-gradient(45deg, #ffdbf8, #ff7ae5);
+}
+.card-4 {
+  background-image: linear-gradient(45deg, #c2e8ff, #5cc0ff);
+}
+
+.image-1 {
+  position: absolute;
+  bottom: 0;
+  right: 2em;
+  transition: 1s;
+}
+
+.titles {
+  position: absolute;
+  margin-inline-start: 4em;
+}
+.titles h2 {
+  text-decoration: none;
+  color: #131212;
+  font-family: "Zen Antique", serif;
+}
+.titles h4 {
+  text-decoration: none;
+  color: #131212;
+  font-size: 1em;
+}
