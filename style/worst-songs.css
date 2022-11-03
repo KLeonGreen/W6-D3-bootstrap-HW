@@ -29,6 +29,10 @@ a {
   filter: invert(39%) sepia(16%) saturate(614%) hue-rotate(156deg) brightness(97%) contrast(89%);
 }
 
+.row {
+  row-gap: 1em;
+}
+
 .card {
   background-color: #292d31;
   color: white;
@@ -37,6 +41,7 @@ a {
   width: 10em;
   cursor: pointer;
   transition: 2s;
+  width: 15rem;
 }
 .card:hover {
   background-color: #4a5158;
@@ -44,7 +49,7 @@ a {
   padding: 0.7em;
   width: 10em;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.5s;
   z-index: 5;
 }
 .card-body {
