@@ -41,13 +41,12 @@ a {
   width: 10em;
   cursor: pointer;
   transition: 2s;
-  width: 15rem;
+  width: 17rem;
 }
 .card:hover {
   background-color: #4a5158;
   color: white;
   padding: 0.7em;
-  width: 10em;
   cursor: pointer;
   transition: 0.5s;
   z-index: 5;
