@@ -9,14 +9,11 @@ const deleteBtn = document.querySelectorAll(".btn-danger");
 //   }
 // };
 
-const removerow = function (i) {
-  fullList.deleteRow(i);
+const removerow = function () {
+  for (let btn of deleteBtn) {
+    btn.addEventListener("click", () => {
+      btn.parentElement.parentElement.remove(0);
+    });
+  }
 };
-
-// for (let i = 1; i < songRows.length; i) {
-//   for (let button of deleteBtn) {
-//     button.addEventListener("click", function () {
-//       removerow();
-//     });
-//   }
-// }
+removerow();

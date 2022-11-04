@@ -110,3 +110,17 @@ tr:hover .btn.btn-danger {
 .hide-row {
   display: none;
 }
+
+.add-track {
+  background-color: white;
+  color: #360003;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.add-track:hover {
+  box-shadow: 0px 10px 50px -10px white;
+  background-color: #ffa9ae;
+  color: #360003;
+}
