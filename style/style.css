@@ -5,7 +5,30 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-.container-fluid {
+.jumbotron {
+  background-image: linear-gradient(45deg, #cdf9e8, #ffd0d3);
+  color: #131212;
+  padding: 5em;
+}
+
+.fade-in {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btn-primary {
+  color: rgb(48, 0, 61);
+  background-image: linear-gradient(45deg, #ffdbf8, #ff7ae5);
+  border: none;
+  font-size: 0.8em;
 }
 .page-card {
   height: 30vh;
@@ -13,10 +36,6 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-}
-
-.row {
-  transform: translateY(30%);
 }
 
 .card-1,
